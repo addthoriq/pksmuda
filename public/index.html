@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>PKS Muda Samarinda</title>
+        <link rel="stylesheet" href="/css/min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <!-- Pengganti body -->
+        <div class="bg-white">
+
+            <!-- Header -->
+            <nav>
+                <div class="container mx-auto px-6 py-2 flex justify-between items-center">
+                    <div class="flex items-center my-3">
+                        <img src="/assets/pks_muda.png" width="50" alt="">
+                        <a href="#" class="ml-5 font-bold text-2xl lg:text-4xl text-orange-500">PKS MUDA <font class="font-normal">Samarinda</font></a>
+                    </div>
+                    <div class="block lg:hidden">
+                        <button type="button" class="flex items-center px-3 py-2 rounded text-orange-500 hover:text-orange-600 hover:border-teal-500 appearance-none focus:outline-none" id="menu">
+                            <svg class="fill-current h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="hidden lg:block">
+                        <ul class="inline-flex">
+                            <li><a href="/" class="px-4 text-orange-500 font-bold">Beranda</a></li>
+                            <li><a href="/" class="px-4 text-orange-500 hover:text-orange-600">Berita</a></li>
+                            <li><a href="/" class="px-4 text-orange-500 hover:text-orange-600">Gabung</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Header -->
+
+            <!-- Responsive Menu -->
+            <div class="hidden lg:hidden bg-gray-100 rounded-b-lg shadow-md" id="menulist">
+                <li><a href="/" class="block text-right p-4 text-orange-500 font-bold hover:bg-orange-500 hover:text-white">Beranda</a></li>
+                <li><a href="" class="block text-right p-4 text-orange-500 hover:bg-orange-500 hover:text-white">Berita</a></li>
+                <li><a href="" class="block text-right p-4 text-orange-500 hover:bg-orange-500 hover:text-white rounded-b-lg">Gabung</a></li>
+            </div>
+            <!-- End Responsive Menu -->
+
+            <!-- Script untuk Responsive Toggle -->
+            <script>
+                document.getElementById('menu').addEventListener('click', function() {
+                    document.getElementById('menulist').classList.toggle('hidden')
+                })
+            </script>
+            <!-- End Script untuk Responsive Toggle -->
+
+            <!-- Header 2 -->
+            <div class="py-20 bg-gradient-to-r from-red-700 to-orange-500">
+                <div class="container mx-auto px-6">
+                    <h2 class="text-4xl font-bold mb-2 text-white">Wujudkan Kreatifmu Bersama Kami!</h2>
+                    <h3 class="text-2xl mb-8 text-gray-100">Bersama PKS Muda, wujudkan pemuda Indonesia yang kreatif dan religius.</h3>
+                    <button type="button" class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider text-orange-700 hover:bg-orange-600 hover:text-white">Join Sekarang!</button>
+                </div>
+            </div>
+            <!-- End Header 2 -->
+
+            <!-- Alasan -->
+            <section class="container mx-auto px-6 py-10">
+                <h2 class="text-4xl font-bold text-center text-orange-500 my-8">Alasan bergabung dengan kami</h2>
+                <!-- Ide -->
+                <div class="flex items-center flex-wrap my-20">
+                    <div class="w-full md:w-1/2">
+                        <h4 class="text-3xl text-orange-500 font-bold mb-3">Wujudkan Ide dan Kreatifitas Bersama-sama</h4>
+                        <p class="text-gray-400 mb-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <img src="/assets/idea_together.jpg" alt="">
+                    </div>
+                </div>
+                <!-- End Ide -->
+
+                <!-- Friendship -->
+                <div class="flex items-center flex-wrap my-20">
+                    <div class="w-full md:w-1/2">
+                        <img src="/assets/friendship.png" width="500" alt="">
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <h4 class="text-3xl text-orange-500 font-bold mb-3">Persaudaraan yang kuat</h4>
+                        <p class="text-gray-400 mb-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <!-- End Friendship -->
+
+                <!-- religius -->
+                <div class="flex items-center flex-wrap my-20">
+                    <div class="w-full md:w-1/2">
+                        <h4 class="text-3xl text-orange-500 font-bold mb-3">Pemuda yang beriman dan bertakwa</h4>
+                        <p class="text-gray-400 mb-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <img src="/assets/muslim.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end religius -->
+            </section>
+            <!-- End Alasan -->
+
+            <!-- Testimoni -->
+            <section class="bg-gray-100">
+                <div class="container mx-auto px-6 py-20">
+                    <h2 class="text-4xl font-bold text-center text-gray-700 mb-8">Kata Mereka tentang PKS Muda</h2>
+                    <div class="flex flex-wrap">
+                        <!-- Testi 1 -->
+                        <div class="w-full md:w-1/3 px-2 mb-4">
+                            <div class="bg-white rounded shadow py-2">
+                                <p class="text-gray-800 text-base px-6 mb-5">Mantep euy</p>
+                                <p class="text-gray-500 text-xs md:text-sm px-6">Fulan bin Fulan</p>
+                            </div>
+                        </div>
+                        <!-- End Testi 1 -->
+                        <!-- Testi 2 -->
+                        <div class="w-full md:w-1/3 px-2 mb-4">
+                            <div class="bg-white rounded shadow py-2">
+                                <p class="text-gray-800 text-base px-6 mb-5">Keren euy</p>
+                                <p class="text-gray-500 text-xs md:text-sm px-6">John Doe</p>
+                            </div>
+                        </div>
+                        <!-- End Testi 2 -->
+                        <!-- Testi 3 -->
+                        <div class="w-full md:w-1/3 px-2 mb-4">
+                            <div class="bg-white rounded shadow py-2">
+                                <p class="text-gray-800 text-base px-6 mb-5">Sasuga euy</p>
+                                <p class="text-gray-500 text-xs md:text-sm px-6">Sasageyo Mizuki</p>
+                            </div>
+                        </div>
+                        <!-- End Testi 4 -->
+                    </div>
+                </div>
+            </section>
+            <!-- End Testimoni -->
+
+            <!-- Hubungi -->
+            <section class="bg-orange-500">
+                <div class="container mx-auto px-6 text-center py-20">
+                    <h2 class="mb-6 text-4xl font-bold text-center text-white">Punya pertanyaan lebih lanjut?</h2>
+                    <h3 class="my-4 text-2xl text-white">Hubungi kami di bawah ini</h3>
+                    <button type="button" class="text-white bg-green-500 font-bold rounded-full mt-6 py-4 px-8 shadow-lg uppercase tracking-wider border-none hover:bg-white hover:text-green-500">WhatsApp</button>
+                    <button type="button" class="text-white bg-pink-500 font-bold rounded-full mt-6 py-4 px-8 shadow-lg uppercase tracking-wider border-none hover:bg-white hover:text-pink-500">Instagram</button>
+                    <button type="button" class="text-white bg-blue-700 font-bold rounded-full mt-6 py-4 px-8 shadow-lg uppercase tracking-wider border-none hover:bg-white hover:text-blue-700">Facebook</button>
+                    <button type="button" class="text-white bg-red-600 font-bold rounded-full mt-6 py-4 px-8 shadow-lg uppercase tracking-wider border-none hover:bg-white hover:text-red-600">Youtube</button>
+                </div>
+            </section>
+            <!-- End Hubungi -->
+
+            <!-- Footer -->
+            <footer class="bg-gray-900">
+                <div class="container mx-auto px-6 pt-10 pb-6">
+                    <div class="flex flex-wrap">
+                        <!-- Links -->
+                        <div class="w-full md:w-1/4 text-center md:text-left">
+                            <h5 class="text-white uppercase mb-6 font-bold">Links</h5>
+                            <ul class="mb-4">
+                                <li class="mt-2"><a href="#" class="hover:underline text-white hover:texttext-orange-500">FAQ</a></li>
+                                <li class="mt-2"><a href="#" class="hover:underline text-white hover:texttext-orange-500">Bantuan</a></li>
+                                <li class="mt-2"><a href="#" class="hover:underline text-white hover:texttext-orange-500">Dukung kami</a></li>
+                            </ul>
+                        </div>
+                        <!-- End Links -->
+                        <!-- Kebijakan -->
+                        <div class="w-full md:w-1/4 text-center md:text-left">
+                            <h5 class="text-white uppercase mb-6 font-bold">Kebijakan</h5>
+                            <ul class="mb-4">
+                                <li class="mt-2"><a href="#" class="hover:underline text-white hover:texttext-orange-500">Kebijakan</a></li>
+                                <li class="mt-2"><a href="#" class="hover:underline text-white hover:texttext-orange-500">Privasi</a></li>
+                                <li class="mt-2"><a href="#" class="hover:underline text-white hover:texttext-orange-500">Hak Cipta</a></li>
+                            </ul>
+                        </div>
+                        <!-- End Kebijakan -->
+                        <!-- Tentang kami -->
+                        <div class="w-full md:w-1/4 text-center md:text-left">
+                            <h5 class="text-white uppercase mb-6 font-bold">Tentang kami</h5>
+                            <ul class="mb-4">
+                                <li class="mt-2"><a href="#" class="hover:underline text-white hover:texttext-orange-500">Blog</a></li>
+                                <li class="mt-2"><a href="#" class="hover:underline text-white hover:texttext-orange-500">Akun Media</a></li>
+                                <li class="mt-2"><a href="#" class="hover:underline text-white hover:texttext-orange-500">Tentang kami</a></li>
+                            </ul>
+                        </div>
+                        <!-- End Tentang kami -->
+                        <!-- Powered by -->
+                        <div class="w-full md:w-1/4 text-center md:text-left">
+                            <h5 class="text-white uppercase mb-6 font-bold">Powered by</h5>
+                            <div class="flex justify-start items-start">
+                                <img src="/assets/PKS_logo_2020.png" class="bg-white p-2 mr-5" width="70" alt="">
+                                <div class="flex-row">
+                                    <h1 class="text-white font-bold">PKS</h1>
+                                    <h5 class="text-white flex-row">Partai</h5>
+                                    <h5 class="text-white flex-row">Keadilan</h5>
+                                    <h5 class="text-white flex-row">Sejahtera</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Powered by -->
+                    </div>
+                </div>
+            </footer>
+            <!-- End Footer -->
+
+        </div>
+        <!-- End Pengganti Body -->
+    </body>
+</html>
